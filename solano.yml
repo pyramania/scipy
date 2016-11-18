@@ -1,17 +1,2 @@
-asdf
-    pip install --install-option="--no-cython-compile" Cython==0.22
-    pip install $NUMPYSPEC
-    pip install nose mpmath argparse Pillow codecov
-    pip install --upgrade pip setuptools
-    pip install gmpy
-    if [ "$TESTMODE" == "full" ]; then
-      pip install coverage;
-    fi
-    if [ "$USE_WHEEL" == "1" ]; then
-      pip install wheel;
-    fi
-    if [ "$REFGUIDE_CHECK" == "1" ]; then
-      pip install matplotlib Sphinx==1.2.3;
-    fi
-    python -V
-    popdasdf
+tests:
+  - "echo 'hi'"
