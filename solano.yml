@@ -14,4 +14,4 @@ asdf
       pip install matplotlib Sphinx==1.2.3;
     fi
     python -V
-    popd
+    popdasdf
